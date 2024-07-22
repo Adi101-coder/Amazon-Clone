@@ -151,6 +151,7 @@ span{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    transition: transform 0.3s ease-in-out;
 }
 .box-img{
     height: 300px;
@@ -229,6 +230,6 @@ ul a{
     padding-top: 5px;
 }
 .box:hover{
-    height: 420px;
-    width: 27%;
+    transform:scale(0.9);
+    
 }
